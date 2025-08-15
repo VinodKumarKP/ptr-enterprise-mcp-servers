@@ -1,0 +1,9 @@
+port: 8003
+util_class_name: ServiceNowUtils
+util_file_name: servicenow_utils.py
+description: |-
+  A comprehensive Model Context Protocol (MCP) server that provides ServiceNow incident management capabilities. 
+  This server enables AI assistants to interact with ServiceNow instances to manage incidents, add comments, and perform various ServiceNow operations.
+tags:
+  - servicenow
+

@@ -1,0 +1,8 @@
+port: 8004
+util_class_name: JiraUtils
+util_file_name: jira_utils.py
+description: |-
+  A comprehensive Model Context Protocol (MCP) server that provides Jira issue management capabilities. 
+  This server enables AI assistants to interact with Jira instances to manage issues, search for tickets, add comments, and perform various Jira operations.
+tags:
+  - jira

@@ -1,3 +1,5 @@
 .venv
 .idea
 *.pyc
+mcp_servers.egg-info
+build
