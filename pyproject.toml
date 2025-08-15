@@ -27,9 +27,6 @@ dependencies = [
     "nest-asyncio",
     "ruamel.yaml",
     "requests",
-    "boto3",
-    "gitdb==4.0.12",
-    "GitPython==3.1.44",
     "mcp-server-core@git+https://github.com/Capgemini-Innersource/ptr_mcp_server_core@main"
 ]
 
