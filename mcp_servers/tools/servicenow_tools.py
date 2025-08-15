@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-class ServiceNowUtils:
+class ServiceNowTools:
 
     def __init__(self):
         self.SERVICENOW_PASSWORD = None

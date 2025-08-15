@@ -16,8 +16,8 @@ import nest_asyncio  # Added import
 
 nest_asyncio.apply()  # Added call
 
-from mcp_servers.utils.jira_utils import JiraUtils
-from mcp_server_core.servers.base_mcp_server.server import BaseMCPServer
+from mcp_servers.tools.jira_tools import JiraTools
+from mcp_server_core.core.base_mcp_server import BaseMCPServer
 
 
 class JiraServer(BaseMCPServer):
@@ -28,7 +28,7 @@ class JiraServer(BaseMCPServer):
         Initialize the Jira server.
         """
         super().__init__(self.base_directory(__file__),
-                         object_list=[JiraUtils()],
+                         object_list=[JiraTools()],
                          source_file=__file__)
 
 

@@ -16,8 +16,8 @@ import nest_asyncio  # Added import
 
 nest_asyncio.apply()  # Added call
 
-from mcp_servers.utils.servicenow_utils import ServiceNowUtils
-from mcp_server_core.servers.base_mcp_server.server import BaseMCPServer
+from mcp_servers.tools.servicenow_tools import ServiceNowTools
+from mcp_server_core.core.base_mcp_server import BaseMCPServer
 
 
 class ServiceNowServer(BaseMCPServer):
@@ -28,7 +28,7 @@ class ServiceNowServer(BaseMCPServer):
         Initialize the ServiceNow server.
         """
         super().__init__(self.base_directory(__file__),
-                         object_list=[ServiceNowUtils()],
+                         object_list=[ServiceNowTools()],
                          source_file=__file__)
 
 

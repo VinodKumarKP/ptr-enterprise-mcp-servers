@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-class JiraUtils:
+class JiraTools:
 
     def __init__(self):
         self.JIRA_API_TOKEN = None
