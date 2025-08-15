@@ -1,12 +1,15 @@
 import os
 import sys
 
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
 file_root = os.path.dirname(os.path.abspath(__file__))
 path_list = [
     file_root,
     os.path.dirname(file_root),
-    os.path.dirname(os.path.dirname(file_root)),
-    os.path.dirname(os.path.dirname(os.path.dirname(file_root)))
+    os.path.dirname(os.path.dirname(file_root))
 ]
 for path in path_list:
     if path not in sys.path:
