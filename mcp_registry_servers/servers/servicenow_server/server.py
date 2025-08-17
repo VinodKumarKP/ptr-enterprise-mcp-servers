@@ -15,30 +15,29 @@ for path in path_list:
     if path not in sys.path:
         sys.path.append(path)
 
-
 import nest_asyncio  # Added import
 
 nest_asyncio.apply()  # Added call
 
-from mcp_servers.tools.jira_tools import JiraTools
+from mcp_registry_servers.tools.servicenow_tools import ServiceNowTools
 from mcp_server_core.core.base_mcp_server import BaseMCPServer
 
 
-class JiraServer(BaseMCPServer):
-    """Jira MCP server implementation."""
+class ServiceNowServer(BaseMCPServer):
+    """ServiceNow MCP server implementation."""
 
     def __init__(self):
         """
-        Initialize the Jira server.
+        Initialize the ServiceNow server.
         """
         super().__init__(self.base_directory(__file__),
-                         object_list=[JiraTools()],
+                         object_list=[ServiceNowTools()],
                          source_file=__file__)
 
 
 def main():
-    """Main function to run the Jira server."""
-    server = JiraServer()
+    """Main function to run the ServiceNow server."""
+    server = ServiceNowServer()
     server.main()
 
 
