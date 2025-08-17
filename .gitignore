@@ -1,5 +1,8 @@
 .venv
 .idea
 *.pyc
-mcp_servers.egg-info
+logs
+uv.lock
+*.egg-info
+docker-compose.yaml
 build
