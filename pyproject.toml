@@ -5,7 +5,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcp_registry_servers_enterprise"
-version = "1.0.0"
 description = "MCP Servers"
 authors = [{name = "Vinod Kumar KP", email = "vinod.kunnum-purath@capgemini.com"}]
 license = {text = "MIT"}
