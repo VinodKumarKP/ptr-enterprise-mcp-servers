@@ -21,7 +21,7 @@ import nest_asyncio  # Added import
 nest_asyncio.apply()  # Added call
 
 from mcp_registry_servers.tools.jira_tools import JiraTools
-from mcp_server_core.core.base_mcp_server import BaseMCPServer
+from oai_mcp_server_core.core.base_mcp_server import BaseMCPServer
 
 
 class JiraServer(BaseMCPServer):

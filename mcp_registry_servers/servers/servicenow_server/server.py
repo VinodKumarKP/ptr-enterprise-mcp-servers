@@ -20,7 +20,7 @@ import nest_asyncio  # Added import
 nest_asyncio.apply()  # Added call
 
 from mcp_registry_servers.tools.servicenow_tools import ServiceNowTools
-from mcp_server_core.core.base_mcp_server import BaseMCPServer
+from oai_mcp_server_core.core.base_mcp_server import BaseMCPServer
 
 
 class ServiceNowServer(BaseMCPServer):
