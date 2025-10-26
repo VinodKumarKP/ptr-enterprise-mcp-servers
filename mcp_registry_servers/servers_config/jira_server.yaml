@@ -6,3 +6,7 @@ description: |-
   This server enables AI assistants to interact with Jira instances to manage issues, search for tickets, add comments, and perform various Jira operations.
 tags:
   - jira
+env:
+  JIRA_API_TOKEN: ${JIRA_API_TOKEN}
+  JIRA_BASE_URL: ${JIRA_BASE_URL}
+  JIRA_EMAIL: ${JIRA_EMAIL}
