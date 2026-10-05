@@ -69,7 +69,7 @@ Use uv to run the server directly without local installation:
     "args": [
       "run",
       "--with",
-      "git+https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git",
+      "git+https://github.com/local-Innersource/ptr_mcp_servers_registry.git",
       "servicenow-mcp-server"
     ]
   }
@@ -81,7 +81,7 @@ Use uv to run the server directly without local installation:
 Install the package first, then run the server:
 
 ```bash
-pip install git+https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git
+pip install git+https://github.com/local-Innersource/ptr_mcp_servers_registry.git
 ```
 
 Then configure your MCP client:
@@ -100,7 +100,7 @@ Then configure your MCP client:
 Clone the repository locally and run with uv:
 
 ```bash
-git clone https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git
+git clone https://github.com/local-Innersource/ptr_mcp_servers_registry.git
 ```
 
 Then configure your MCP client:
@@ -133,7 +133,7 @@ You can run the MCP server registry locally using Docker Compose. This is ideal 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git
+   git clone https://github.com/local-Innersource/ptr_mcp_servers_registry.git
    cd ptr_mcp_servers_registry
    ```
 
@@ -199,7 +199,7 @@ For production use or when you want to share the MCP server with multiple users,
    ssh user@your-remote-server.com
    
    # Clone the repository
-   git clone https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git
+   git clone https://github.com/local-Innersource/ptr_mcp_servers_registry.git
    cd ptr_mcp_servers_registry
    
    # Set up environment variables
@@ -244,7 +244,7 @@ Add to your `claude_desktop_config.json`:
       "args": [
         "run",
         "--with",
-        "git+https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git",
+        "git+https://github.com/local-Innersource/ptr_mcp_servers_registry.git",
         "servicenow-mcp-server"
       ],
       "env": {
@@ -419,7 +419,7 @@ status = await check_servicenow_health()
 ## License & Contributing
 
 This MCP server is part of
-the [Capgemini Innersource MCP Servers Registry](https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry).
+the [local Innersource MCP Servers Registry](https://github.com/local-Innersource/ptr_mcp_servers_registry).
 
 For issues, feature requests, or contributions, please visit the main repository.
 

@@ -4,7 +4,7 @@ description: |-
 tags:
   - servicenow
   - itsm
-source: https://github.com/Capgemini-Innersource/ptr-enterprise-mcp-servers.git
+source: https://github.com/VinodKumarKP/ptr-enterprise-mcp-servers.git
 env:
   SERVICENOW_INSTANCE_URL: ${SERVICENOW_INSTANCE_URL}
   SERVICENOW_USERNAME: ${SERVICENOW_USERNAME}

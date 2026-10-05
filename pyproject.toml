@@ -1,4 +1,4 @@
-# pyproject.toml
+g# pyproject.toml
 [build-system]
 requires = ["setuptools>=61.0", "wheel", "ruamel.yaml", "setuptools_scm>=8"]
 build-backend = "setuptools.build_meta"
@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "mcp_registry_servers_enterprise"
 description = "MCP Servers"
-authors = [{name = "Vinod Kumar KP", email = "vinod.kunnum-purath@capgemini.com"}]
+authors = [{name = "Vinod Kumar KP", email = "vinod.kunnum-purath@local.com"}]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.11"
@@ -25,13 +25,13 @@ dependencies = [
 ]
 
 [tool.uv.sources]
- oai-mcp-server-core = { git = "https://github.com/Capgemini-Innersource/ptr_oai_agent_development_kit.git", branch = "main", subdirectory = "packages/mcp-core" }
+ oai-mcp-server-core = { git = "https://github.com/VinodKumarKP/ptr_oai_adk.git", branch = "main", subdirectory = "packages/mcp-core" }
 
 
 [project.urls]
-Homepage = "https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry"
-Repository = "https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.gi"
-Issues = "https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry/issues"
+Homepage = "https://github.com/local-Innersource/ptr_mcp_servers_registry"
+Repository = "https://github.com/local-Innersource/ptr_mcp_servers_registry.gi"
+Issues = "https://github.com/local-Innersource/ptr_mcp_servers_registry/issues"
 
 
 [tool.setuptools.packages.find]

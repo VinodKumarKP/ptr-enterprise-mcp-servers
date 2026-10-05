@@ -536,3 +536,16 @@ class ServiceNowTools:
         except Exception as e:
             logger.error("ServiceNow Health check failed " + str(e))
             return {"status": "unhealthy", "error": str(e)}
+
+
+os.environ['SERVICENOW_BASE_URL'] = "http://localhost:5001/api/now"
+os.environ["SERVICENOW_USER"] = "your_servicenow_username"
+os.environ["SERVICENOW_PASSWORD"] = "your_servicenow_password"
+
+
+
+servicenow_tools = ServiceNowTools()
+# response = servicenow_tools.create_servicenow_incident("Test Incident", "This is a test incident")
+# print(response)
+response = servicenow_tools.get_servicenow_incidents(query="number=INC1000005^ORnumber=INC10000061^ORnumber=INC1000007")
+print(len(response['result']))

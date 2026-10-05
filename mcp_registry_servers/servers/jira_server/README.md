@@ -74,7 +74,7 @@ Use uv to run the server directly without local installation:
     "args": [
       "run",
       "--with",
-      "git+https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git",
+      "git+https://github.com/local-Innersource/ptr_mcp_servers_registry.git",
       "jira-mcp-server"
     ]
   }
@@ -86,7 +86,7 @@ Use uv to run the server directly without local installation:
 Install the package first, then run the server:
 
 ```bash
-pip install git+https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git
+pip install git+https://github.com/local-Innersource/ptr_mcp_servers_registry.git
 ```
 
 Then configure your MCP client:
@@ -105,7 +105,7 @@ Then configure your MCP client:
 Clone the repository locally and run with uv:
 
 ```bash
-git clone https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git
+git clone https://github.com/local-Innersource/ptr_mcp_servers_registry.git
 ```
 
 Then configure your MCP client:
@@ -132,7 +132,7 @@ You can run the MCP server registry locally using Docker Compose.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git
+   git clone https://github.com/local-Innersource/ptr_mcp_servers_registry.git
    cd ptr_mcp_servers_registry
    ```
 
@@ -174,7 +174,7 @@ Add to your `claude_desktop_config.json`:
       "args": [
         "run",
         "--with",
-        "git+https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry.git",
+        "git+https://github.com/local-Innersource/ptr_mcp_servers_registry.git",
         "jira-mcp-server"
       ],
       "env": {
@@ -397,6 +397,6 @@ health_status = await check_jira_health()
 ## License & Contributing
 
 This MCP server is part of
-the [Capgemini Innersource MCP Servers Registry](https://github.com/Capgemini-Innersource/ptr_mcp_servers_registry).
+the [local Innersource MCP Servers Registry](https://github.com/local-Innersource/ptr_mcp_servers_registry).
 
 For issues, feature requests, or contributions, please visit the main repository.
